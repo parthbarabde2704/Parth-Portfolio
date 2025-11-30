@@ -16,9 +16,9 @@ const projects = [
     description:
       "A modern, visually engaging landing page built to present the concept of a futuristic 3D metaverse community called Cyber Fiction. The project focuses on clean typography, smooth animations, and an immersive scrolling experience that introduces users to the brand’s vision.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React.js", "Html & tailwindcss", "Next.js"],
+    demoUrl: "https://3-d-animation-website-six.vercel.app/",
+    githubUrl: "https://github.com/parthbarabde2704/3D-Animation-Website",
   },
   {
     id: 3,
@@ -26,8 +26,8 @@ const projects = [
     description:
       "Full-featured e-commerce home automotion platform with user authentication and payment processing.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "MongoDB","Html","CSS"],
-    demoUrl: "#",
+    tags: ["React", "Node.js", "MongoDB","Html","tailwindSS"],
+    demoUrl: "https://e-commerce-platform-3qt1n1fmz-parthbarabde2704s-projects.vercel.app/",
     githubUrl: "https://github.com/parthbarabde2704/E-Commerce-Platform",
   },
 ];
