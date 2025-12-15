@@ -1,5 +1,4 @@
 import { Briefcase, Code, User } from "lucide-react";
-import ResumePDF from "@/assets/Parth.pdf";
 
 export const AboutSection = () => {
   return (
@@ -18,9 +17,7 @@ export const AboutSection = () => {
             <p className="text-muted-foreground">
               I’m a frontend developer with a background in BCCA, focused on
               building clean, responsive and user-friendly web interfaces using
-              HTML, CSS, JavaScript and React. I enjoy turning ideas into working
-              web applications and I’m constantly learning new tools and best
-              practices to improve performance, accessibility and design.
+              HTML, CSS, JavaScript and React.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -28,63 +25,20 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
 
-              {/* UPDATED RESUME DOWNLOAD BUTTON */}
-             <a
-              href="/Parth.pdf"
-                       download
-                  className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
-        >
-               Download CV
+              <a
+                href="/Parth.pdf"
+                download
+                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              >
+                Download CV
               </a>
             </div>
           </div>
 
           <div className="grid grid-cols-1 gap-6">
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Code className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
-                  <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with modern
-                    frameworks.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                  <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
-                </div>
-
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
-                  <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
-                  </p>
-                </div>
-              </div>
-            </div>
+            <Code className="h-6 w-6 text-primary" />
+            <User className="h-6 w-6 text-primary" />
+            <Briefcase className="h-6 w-6 text-primary" />
           </div>
         </div>
       </div>
